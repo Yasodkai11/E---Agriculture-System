@@ -1,0 +1,196 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Users can read/write their own user document
+    match /users/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // Products - anyone can read, only sellers can write their own
+    match /products/{productId} {
+      allow read: if true;
+      allow create: if request.auth != null && 
+        request.auth.uid == request.resource.data.sellerId;
+      allow update, delete: if request.auth != null && 
+        request.auth.uid == resource.data.sellerId;
+    }
+
+    // Orders - buyers can read/write their own orders, farmers can read/write orders for their products
+    match /orders/{orderId} {
+      allow read: if request.auth != null && (
+        (resource == null) ||
+        request.auth.uid == resource.data.buyerId ||
+        request.auth.uid == resource.data.farmerId
+      );
+      allow create: if request.auth != null && 
+        request.auth.uid == request.resource.data.buyerId;
+      allow update, delete: if request.auth != null && (
+        request.auth.uid == resource.data.buyerId ||
+        request.auth.uid == resource.data.farmerId
+      );
+    }
+
+    // Payments - buyers can read/write their own payments, farmers can read payments for their orders
+    match /payments/{paymentId} {
+      allow read: if request.auth != null && (
+        (resource == null) ||
+        request.auth.uid == resource.data.buyerId ||
+        request.auth.uid == resource.data.sellerId
+      );
+      allow create: if request.auth != null && 
+        request.auth.uid == request.resource.data.buyerId;
+      allow update, delete: if request.auth != null && (
+        request.auth.uid == resource.data.buyerId ||
+        request.auth.uid == resource.data.sellerId
+      );
+    }
+
+    // Order items - anyone authenticated can read/write
+    match /order_items/{itemId} {
+      allow read, write: if request.auth != null;
+    }
+
+    // Product categories - anyone can read, admins can write
+    match /product_categories/{categoryId} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+
+    // Product qualities - anyone can read, admins can write
+    match /product_qualities/{qualityId} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+
+    // User favorites - users can read/write their own favorites
+    match /user_favorites/{favoriteId} {
+      allow read, write: if request.auth != null && (
+        (resource == null) ||
+        request.auth.uid == resource.data.userId
+      );
+    }
+
+    // User cart - users can read/write their own cart
+    match /user_cart/{cartId} {
+      allow read, write: if request.auth != null && (
+        (resource == null) ||
+        request.auth.uid == resource.data.userId
+      );
+    }
+
+    // Product reviews - anyone can read, buyers can write their own reviews
+    match /product_reviews/{reviewId} {
+      allow read: if true;
+      allow write: if request.auth != null && (
+        (resource == null) ||
+        request.auth.uid == request.resource.data.userId
+      );
+    }
+
+    // Expert advice - anyone can read, experts can write
+    match /expert_advice/{adviceId} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+
+    // Market prices - anyone can read, admins can write
+    match /market_prices/{priceId} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+
+    // Weather data - anyone can read, admins can write
+    match /weather_data/{weatherId} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+
+    // Notifications - users can read/write their own notifications
+    match /notifications/{notificationId} {
+      allow read, write: if request.auth != null && (
+        (resource == null) ||
+        request.auth.uid == resource.data.userId
+      );
+    }
+
+    // Chat messages - participants can read/write their own messages
+    match /chat_messages/{messageId} {
+      allow read, write: if request.auth != null && (
+        (resource == null) ||
+        request.auth.uid == resource.data.senderId ||
+        request.auth.uid == resource.data.receiverId
+      );
+    }
+
+    // Chat rooms - participants can read/write their own chat rooms
+    match /chat_rooms/{roomId} {
+      allow read, write: if request.auth != null && (
+        (resource == null) ||
+        request.auth.uid == resource.data.participant1Id ||
+        request.auth.uid == resource.data.participant2Id
+      );
+    }
+
+    // Financial records - users can read/write their own records
+    match /financial_records/{recordId} {
+      allow read, write: if request.auth != null && (
+        (resource == null) ||
+        request.auth.uid == resource.data.userId
+      );
+    }
+
+    // Crops - users can only access their own crops
+    match /crops/{cropId} {
+      allow read, write: if request.auth != null && (
+        (resource == null) || 
+        (request.auth.uid == resource.data.userId) ||
+        (request.auth.uid == request.resource.data.userId)
+      );
+    }
+    
+    // Equipment - users can only access their own equipment
+    match /equipment/{equipmentId} {
+      allow read, write: if request.auth != null && (
+        (resource == null) || 
+        (request.auth.uid == resource.data.userId) ||
+        (request.auth.uid == request.resource.data.userId)
+      );
+    }
+    
+    // Harvest plans - users can only access their own plans
+    match /harvest_plans/{planId} {
+      allow read, write: if request.auth != null && (
+        (resource == null) || 
+        (request.auth.uid == resource.data.userId) ||
+        (request.auth.uid == request.resource.data.userId)
+      );
+    }
+    
+    // Harvests - users can only access their own harvests
+    match /harvests/{harvestId} {
+      allow read, write: if request.auth != null && (
+        (resource == null) || 
+        (request.auth.uid == resource.data.userId) ||
+        (request.auth.uid == request.resource.data.userId)
+      );
+    }
+    
+    // Daily updates - users can only access their own updates
+    match /daily_updates/{updateId} {
+      allow read, write: if request.auth != null && (
+        (resource == null) || 
+        (request.auth.uid == resource.data.userId) ||
+        (request.auth.uid == request.resource.data.userId)
+      );
+    }
+    
+    // User preferences - users can only access their own preferences
+    match /user_preferences/{preferenceId} {
+      allow read, write: if request.auth != null && (
+        (resource == null) || 
+        (request.auth.uid == resource.data.userId) ||
+        (request.auth.uid == request.resource.data.userId)
+      );
+    }
+  }
+}

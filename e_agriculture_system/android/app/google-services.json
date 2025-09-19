@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "39120890961",
+    "project_id": "e-agriculture-system-90979",
+    "storage_bucket": "e-agriculture-system-90979.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:39120890961:android:06b74edd1fb7d135269c70",
+        "android_client_info": {
+          "package_name": "com.example.e_agriculture_system"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3AOHbeLdZ8_24JehNBRlDm_Pa2204B-I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

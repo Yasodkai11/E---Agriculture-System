@@ -1,0 +1,1087 @@
+{
+  "@@locale": "en",
+  "appTitle": "E-Agriculture System",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  
+  "welcome": "Welcome",
+  "@welcome": {
+    "description": "Welcome message"
+  },
+  
+  "goodMorningFarmer": "Good Morning, Farmer! 🌱",
+  "@goodMorningFarmer": {
+    "description": "Good morning message for farmers"
+  },
+  
+  "welcomeBuyer": "Welcome, Buyer! 🛒",
+  "@welcomeBuyer": {
+    "description": "Welcome message for buyers"
+  },
+  
+  "farmManagement": "Farm Management",
+  "@farmManagement": {
+    "description": "Farm management dashboard title"
+  },
+  
+  "buyerMarketplace": "Buyer Marketplace",
+  "@buyerMarketplace": {
+    "description": "Buyer marketplace dashboard title"
+  },
+  
+  "manageFarmOperations": "Manage your farm operations and sell your products",
+  "@manageFarmOperations": {
+    "description": "Description for farm management"
+  },
+  
+  "browseFreshProducts": "Browse fresh products and manage your orders",
+  "@browseFreshProducts": {
+    "description": "Description for buyer marketplace"
+  },
+  
+  "dashboard": "Dashboard",
+  "@dashboard": {
+    "description": "Dashboard title"
+  },
+  
+  "manageOperations": "Manage your operations",
+  "@manageOperations": {
+    "description": "Description for general dashboard"
+  },
+  
+  "marketplace": "Marketplace",
+  "@marketplace": {
+    "description": "Marketplace feature"
+  },
+  
+  "sellYourProducts": "Sell your products",
+  "@sellYourProducts": {
+    "description": "Description for marketplace"
+  },
+  
+  "orderManagement": "Order Management",
+  "@orderManagement": {
+    "description": "Order management feature"
+  },
+  
+  "manageIncomingOrders": "Manage incoming orders",
+  "@manageIncomingOrders": {
+    "description": "Description for order management"
+  },
+  
+  "dailyUpdates": "Daily Updates",
+  "@dailyUpdates": {
+    "description": "Daily updates feature"
+  },
+  
+  "advancedDailyUpdates": "Advanced daily updates",
+  "@advancedDailyUpdates": {
+    "description": "Description for daily updates"
+  },
+  
+  "cropMonitor": "Crop Monitor",
+  "@cropMonitor": {
+    "description": "Crop monitor feature"
+  },
+  
+  "realtimeCropHealth": "Real-time crop health",
+  "@realtimeCropHealth": {
+    "description": "Description for crop monitor"
+  },
+  
+  "weatherForecast": "Weather Forecast",
+  "@weatherForecast": {
+    "description": "Weather forecast feature"
+  },
+  
+  "tenDayPredictions": "10-day predictions",
+  "@tenDayPredictions": {
+    "description": "Description for weather forecast"
+  },
+  
+  "marketPrices": "Market Prices",
+  "@marketPrices": {
+    "description": "Market prices feature"
+  },
+  
+  "liveCommodityRates": "Live commodity rates",
+  "@liveCommodityRates": {
+    "description": "Description for market prices"
+  },
+  
+  "expertChat": "Expert Chat",
+  "@expertChat": {
+    "description": "Expert chat feature"
+  },
+  
+  "aiFarmingAssistant": "AI farming assistant",
+  "@aiFarmingAssistant": {
+    "description": "Description for expert chat"
+  },
+  
+  "farmEquipment": "Farm Equipment",
+  "@farmEquipment": {
+    "description": "Farm equipment feature"
+  },
+  
+  "smartToolManagement": "Smart tool management",
+  "@smartToolManagement": {
+    "description": "Description for farm equipment"
+  },
+  
+  "pestControl": "Pest Control",
+  "@pestControl": {
+    "description": "Pest control feature"
+  },
+  
+  "diseasePrevention": "Disease prevention",
+  "@diseasePrevention": {
+    "description": "Description for pest control"
+  },
+  
+  "harvestPlanning": "Harvest Planning",
+  "@harvestPlanning": {
+    "description": "Harvest planning feature"
+  },
+  
+  "optimizeYieldTiming": "Optimize yield timing",
+  "@optimizeYieldTiming": {
+    "description": "Description for harvest planning"
+  },
+  
+  "financialStatement": "Financial Statement",
+  "@financialStatement": {
+    "description": "Financial statement feature"
+  },
+  
+  "advancedFinancialManagement": "Advanced financial management",
+  "@advancedFinancialManagement": {
+    "description": "Description for financial statement"
+  },
+  
+  "firestoreData": "Firestore Data",
+  "@firestoreData": {
+    "description": "Firestore data feature"
+  },
+  
+  "viewCropsHarvestsEquipment": "View crops, harvests & equipment",
+  "@viewCropsHarvestsEquipment": {
+    "description": "Description for firestore data"
+  },
+  
+  "adminPanel": "Admin Panel",
+  "@adminPanel": {
+    "description": "Admin panel feature"
+  },
+  
+  "testManageDailyUpdates": "Test & manage daily updates",
+  "@testManageDailyUpdates": {
+    "description": "Description for admin panel"
+  },
+  
+  "myOrders": "My Orders",
+  "@myOrders": {
+    "description": "My orders feature"
+  },
+  
+  "trackYourPurchases": "Track your purchases",
+  "@trackYourPurchases": {
+    "description": "Description for my orders"
+  },
+  
+  "favorites": "Favorites",
+  "@favorites": {
+    "description": "Favorites feature"
+  },
+  
+  "savedProducts": "Saved products",
+  "@savedProducts": {
+    "description": "Description for favorites"
+  },
+  
+  "searchFarmers": "Search Farmers",
+  "@searchFarmers": {
+    "description": "Search farmers feature"
+  },
+  
+  "connectDirectlyWithProducers": "Connect directly with producers",
+  "@connectDirectlyWithProducers": {
+    "description": "Description for search farmers"
+  },
+  
+  "deliveryTracking": "Delivery Tracking",
+  "@deliveryTracking": {
+    "description": "Delivery tracking feature"
+  },
+  
+  "trackYourShipments": "Track your shipments",
+  "@trackYourShipments": {
+    "description": "Description for delivery tracking"
+  },
+  
+  "support": "Support",
+  "@support": {
+    "description": "Support feature"
+  },
+  
+  "getHelpAssistance": "Get help & assistance",
+  "@getHelpAssistance": {
+    "description": "Description for support"
+  },
+  
+  "profile": "Profile",
+  "@profile": {
+    "description": "Profile screen title"
+  },
+  
+  "settings": "Settings",
+  "@settings": {
+    "description": "Settings screen title"
+  },
+  
+  "darkMode": "Dark Mode",
+  "@darkMode": {
+    "description": "Dark mode setting"
+  },
+  
+  "switchToLightTheme": "Switch to light theme",
+  "@switchToLightTheme": {
+    "description": "Description for switching to light theme"
+  },
+  
+  "switchToDarkTheme": "Switch to dark theme",
+  "@switchToDarkTheme": {
+    "description": "Description for switching to dark theme"
+  },
+  
+  "language": "Language",
+  "@language": {
+    "description": "Language setting"
+  },
+  
+  "english": "English",
+  "@english": {
+    "description": "English language option"
+  },
+  
+  "sinhala": "සිංහල",
+  "@sinhala": {
+    "description": "Sinhala language option"
+  },
+  
+  "logout": "Logout",
+  "@logout": {
+    "description": "Logout action"
+  },
+  
+  "login": "Login",
+  "@login": {
+    "description": "Login action"
+  },
+  
+  "register": "Register",
+  "@register": {
+    "description": "Register action"
+  },
+  
+  "email": "Email",
+  "@email": {
+    "description": "Email field"
+  },
+  
+  "password": "Password",
+  "@password": {
+    "description": "Password field"
+  },
+  
+  "confirmPassword": "Confirm Password",
+  "@confirmPassword": {
+    "description": "Confirm password field"
+  },
+  
+  "forgotPassword": "Forgot Password?",
+  "@forgotPassword": {
+    "description": "Forgot password link"
+  },
+  
+  "dontHaveAccount": "Don't have an account?",
+  "@dontHaveAccount": {
+    "description": "Don't have account message"
+  },
+  
+  "alreadyHaveAccount": "Already have an account?",
+  "@alreadyHaveAccount": {
+    "description": "Already have account message"
+  },
+  
+  "signUp": "Sign Up",
+  "@signUp": {
+    "description": "Sign up action"
+  },
+  
+  "signIn": "Sign In",
+  "@signIn": {
+    "description": "Sign in action"
+  },
+  
+  "loading": "Loading...",
+  "@loading": {
+    "description": "Loading message"
+  },
+  
+  "error": "Error",
+  "@error": {
+    "description": "Error message"
+  },
+  
+  "success": "Success",
+  "@success": {
+    "description": "Success message"
+  },
+  
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "Cancel action"
+  },
+  
+  "save": "Save",
+  "@save": {
+    "description": "Save action"
+  },
+  
+  "edit": "Edit",
+  "@edit": {
+    "description": "Edit action"
+  },
+  
+  "delete": "Delete",
+  "@delete": {
+    "description": "Delete action"
+  },
+  
+  "add": "Add",
+  "@add": {
+    "description": "Add action"
+  },
+  
+  "update": "Update",
+  "@update": {
+    "description": "Update action"
+  },
+  
+  "search": "Search",
+  "@search": {
+    "description": "Search action"
+  },
+  
+  "filter": "Filter",
+  "@filter": {
+    "description": "Filter action"
+  },
+  
+  "refresh": "Refresh",
+  "@refresh": {
+    "description": "Refresh action"
+  },
+  
+  "back": "Back",
+  "@back": {
+    "description": "Back action"
+  },
+  
+  "next": "Next",
+  "@next": {
+    "description": "Next action"
+  },
+  
+  "previous": "Previous",
+  "@previous": {
+    "description": "Previous action"
+  },
+  
+  "done": "Done",
+  "@done": {
+    "description": "Done action"
+  },
+  
+  "ok": "OK",
+  "@ok": {
+    "description": "OK action"
+  },
+  
+  "yes": "Yes",
+  "@yes": {
+    "description": "Yes action"
+  },
+  
+  "no": "No",
+  "@no": {
+    "description": "No action"
+  },
+  
+  "todaySummary": "Today's Summary",
+  "@todaySummary": {
+    "description": "Today's summary title"
+  },
+  
+  "newUpdates": "5 new updates • 2 high priority",
+  "@newUpdates": {
+    "description": "New updates count"
+  },
+  
+  "weatherUpdate": "Weather Update",
+  "@weatherUpdate": {
+    "description": "Weather update title"
+  },
+  
+  "marketStatus": "Market Status",
+  "@marketStatus": {
+    "description": "Market status title"
+  },
+  
+  "sunnyPerfectFarming": "Sunny, 28°C - Perfect for farming activities",
+  "@sunnyPerfectFarming": {
+    "description": "Weather description for farmers"
+  },
+  
+  "activeMarketplace": "Active marketplace with fresh products available",
+  "@activeMarketplace": {
+    "description": "Market status for buyers"
+  },
+  
+  "pestOverview": "Pest Overview",
+  "@pestOverview": {
+    "description": "Pest overview title"
+  },
+  
+  "critical": "Critical",
+  "@critical": {
+    "description": "Critical severity level"
+  },
+  
+  "high": "High",
+  "@high": {
+    "description": "High severity level"
+  },
+  
+  "medium": "Medium",
+  "@medium": {
+    "description": "Medium severity level"
+  },
+  
+  "low": "Low",
+  "@low": {
+    "description": "Low severity level"
+  },
+  
+  "enhancedProfileUpdate": "Enhanced Profile Update",
+  "@enhancedProfileUpdate": {
+    "description": "Enhanced profile update feature"
+  },
+  
+  "updateWithImageUpload": "Update with image upload & verification",
+  "@updateWithImageUpload": {
+    "description": "Description for enhanced profile update"
+  },
+  
+  "notifications": "Notifications",
+  "@notifications": {
+    "description": "Notifications feature"
+  },
+  
+  "manageNotifications": "Manage your notifications",
+  "@manageNotifications": {
+    "description": "Description for notifications"
+  },
+  
+  "privacy": "Privacy",
+  "@privacy": {
+    "description": "Privacy feature"
+  },
+  
+  "managePrivacySettings": "Manage your privacy settings",
+  "@managePrivacySettings": {
+    "description": "Description for privacy"
+  },
+  
+  "about": "About",
+  "@about": {
+    "description": "About feature"
+  },
+  
+  "appInfo": "App information and version",
+  "@appInfo": {
+    "description": "Description for about"
+  },
+  
+  "helpSupport": "Help & Support",
+  "@helpSupport": {
+    "description": "Help and support feature"
+  },
+  
+  "getHelp": "Get help and support",
+  "@getHelp": {
+    "description": "Description for help and support"
+  },
+  
+  "chooseLanguage": "Choose your preferred language",
+  "@chooseLanguage": {
+    "description": "Description for language selection"
+  },
+  
+  "updatesRefreshed": "Updates refreshed",
+  "@updatesRefreshed": {
+    "description": "Message when updates are refreshed"
+  },
+  
+  "errorUpdatingProfile": "Error updating profile",
+  "@errorUpdatingProfile": {
+    "description": "Error message when profile update fails"
+  },
+  
+  "profileUpdatedSuccessfully": "Profile updated successfully!",
+  "@profileUpdatedSuccessfully": {
+    "description": "Success message when profile is updated"
+  },
+  
+  "confirmLogout": "Are you sure you want to logout?",
+  "@confirmLogout": {
+    "description": "Confirmation message for logout"
+  },
+  
+  "logoutConfirmation": "You will need to sign in again to access your account.",
+  "@logoutConfirmation": {
+    "description": "Additional information for logout confirmation"
+  },
+  
+  "name": "Name",
+  "@name": {
+    "description": "Name field"
+  },
+  
+  "phone": "Phone",
+  "@phone": {
+    "description": "Phone field"
+  },
+  
+  "address": "Address",
+  "@address": {
+    "description": "Address field"
+  },
+  
+  "bio": "Bio",
+  "@bio": {
+    "description": "Bio field"
+  },
+  
+  "farmer": "Farmer",
+  "@farmer": {
+    "description": "Farmer user type"
+  },
+  
+  "buyer": "Buyer",
+  "@buyer": {
+    "description": "Buyer user type"
+  },
+  
+  "userType": "User Type",
+  "@userType": {
+    "description": "User type field"
+  },
+  
+  "joinDate": "Join Date",
+  "@joinDate": {
+    "description": "Join date field"
+  },
+  
+  "lastActive": "Last Active",
+  "@lastActive": {
+    "description": "Last active field"
+  },
+  
+  "totalOrders": "Total Orders",
+  "@totalOrders": {
+    "description": "Total orders field"
+  },
+  
+  "totalProducts": "Total Products",
+  "@totalProducts": {
+    "description": "Total products field"
+  },
+  
+  "rating": "Rating",
+  "@rating": {
+    "description": "Rating field"
+  },
+  
+  "reviews": "Reviews",
+  "@reviews": {
+    "description": "Reviews field"
+  },
+  
+  "verified": "Verified",
+  "@verified": {
+    "description": "Verified status"
+  },
+  
+  "unverified": "Unverified",
+  "@unverified": {
+    "description": "Unverified status"
+  },
+  
+  "editProfile": "Edit Profile",
+  "@editProfile": {
+    "description": "Edit profile action"
+  },
+  
+  "viewProfile": "View Profile",
+  "@viewProfile": {
+    "description": "View profile action"
+  },
+  
+  "shareProfile": "Share Profile",
+  "@shareProfile": {
+    "description": "Share profile action"
+  },
+  
+  "reportUser": "Report User",
+  "@reportUser": {
+    "description": "Report user action"
+  },
+  
+  "blockUser": "Block User",
+  "@blockUser": {
+    "description": "Block user action"
+  },
+  
+  "unblockUser": "Unblock User",
+  "@unblockUser": {
+    "description": "Unblock user action"
+  },
+  
+  "sendMessage": "Send Message",
+  "@sendMessage": {
+    "description": "Send message action"
+  },
+  
+  "follow": "Follow",
+  "@follow": {
+    "description": "Follow action"
+  },
+  
+  "unfollow": "Unfollow",
+  "@unfollow": {
+    "description": "Unfollow action"
+  },
+  
+  "viewAll": "View All",
+  "@viewAll": {
+    "description": "View all action"
+  },
+  
+  "seeMore": "See More",
+  "@seeMore": {
+    "description": "See more action"
+  },
+  
+  "seeLess": "See Less",
+  "@seeLess": {
+    "description": "See less action"
+  },
+  
+  "noData": "No Data",
+  "@noData": {
+    "description": "No data message"
+  },
+  
+  "noDataAvailable": "No data available",
+  "@noDataAvailable": {
+    "description": "No data available message"
+  },
+  
+  "tryAgain": "Try Again",
+  "@tryAgain": {
+    "description": "Try again action"
+  },
+  
+  "retry": "Retry",
+  "@retry": {
+    "description": "Retry action"
+  },
+  
+  "close": "Close",
+  "@close": {
+    "description": "Close action"
+  },
+  
+  "open": "Open",
+  "@open": {
+    "description": "Open action"
+  },
+  
+  "view": "View",
+  "@view": {
+    "description": "View action"
+  },
+  
+  "download": "Download",
+  "@download": {
+    "description": "Download action"
+  },
+  
+  "upload": "Upload",
+  "@upload": {
+    "description": "Upload action"
+  },
+  
+  "select": "Select",
+  "@select": {
+    "description": "Select action"
+  },
+  
+  "deselect": "Deselect",
+  "@deselect": {
+    "description": "Deselect action"
+  },
+  
+  "clear": "Clear",
+  "@clear": {
+    "description": "Clear action"
+  },
+  
+  "reset": "Reset",
+  "@reset": {
+    "description": "Reset action"
+  },
+  
+  "submit": "Submit",
+  "@submit": {
+    "description": "Submit action"
+  },
+  
+  "continueAction": "Continue",
+  "@continueAction": {
+    "description": "Continue action"
+  },
+  
+  "skip": "Skip",
+  "@skip": {
+    "description": "Skip action"
+  },
+  
+  "finish": "Finish",
+  "@finish": {
+    "description": "Finish action"
+  },
+  
+  "start": "Start",
+  "@start": {
+    "description": "Start action"
+  },
+  
+  "stop": "Stop",
+  "@stop": {
+    "description": "Stop action"
+  },
+  
+  "pause": "Pause",
+  "@pause": {
+    "description": "Pause action"
+  },
+  
+  "resume": "Resume",
+  "@resume": {
+    "description": "Resume action"
+  },
+  
+  "play": "Play",
+  "@play": {
+    "description": "Play action"
+  },
+  
+  "settings": "Settings",
+  "@settings": {
+    "description": "Settings title"
+  },
+  
+  "preferences": "Preferences",
+  "@preferences": {
+    "description": "Preferences title"
+  },
+  
+  "account": "Account",
+  "@account": {
+    "description": "Account title"
+  },
+  
+  "security": "Security",
+  "@security": {
+    "description": "Security title"
+  },
+  
+  "notifications": "Notifications",
+  "@notifications": {
+    "description": "Notifications title"
+  },
+  
+  "privacy": "Privacy",
+  "@privacy": {
+    "description": "Privacy title"
+  },
+  
+  "about": "About",
+  "@about": {
+    "description": "About title"
+  },
+  
+  "help": "Help",
+  "@help": {
+    "description": "Help title"
+  },
+  
+  "support": "Support",
+  "@support": {
+    "description": "Support title"
+  },
+  
+  "feedback": "Feedback",
+  "@feedback": {
+    "description": "Feedback title"
+  },
+  
+  "contact": "Contact",
+  "@contact": {
+    "description": "Contact title"
+  },
+  
+  "terms": "Terms",
+  "@terms": {
+    "description": "Terms title"
+  },
+  
+  "policy": "Policy",
+  "@policy": {
+    "description": "Policy title"
+  },
+  
+  "version": "Version",
+  "@version": {
+    "description": "Version title"
+  },
+  
+  "build": "Build",
+  "@build": {
+    "description": "Build title"
+  },
+  
+  "copyright": "Copyright",
+  "@copyright": {
+    "description": "Copyright title"
+  },
+  
+  "allRightsReserved": "All rights reserved",
+  "@allRightsReserved": {
+    "description": "All rights reserved message"
+  },
+  
+  "payment": "Payment",
+  "@payment": {
+    "description": "Payment title"
+  },
+  
+  "orderSummary": "Order Summary",
+  "@orderSummary": {
+    "description": "Order summary title"
+  },
+  
+  "subtotal": "Subtotal",
+  "@subtotal": {
+    "description": "Subtotal label"
+  },
+  
+  "shipping": "Shipping",
+  "@shipping": {
+    "description": "Shipping label"
+  },
+  
+  "tax": "Tax (VAT)",
+  "@tax": {
+    "description": "Tax label"
+  },
+  
+  "total": "Total",
+  "@total": {
+    "description": "Total label"
+  },
+  
+  "selectPaymentMethod": "Select Payment Method",
+  "@selectPaymentMethod": {
+    "description": "Select payment method title"
+  },
+  
+  "paymentDetails": "Payment Details",
+  "@paymentDetails": {
+    "description": "Payment details title"
+  },
+  
+  "bankName": "Bank Name",
+  "@bankName": {
+    "description": "Bank name field"
+  },
+  
+  "accountNumber": "Account Number",
+  "@accountNumber": {
+    "description": "Account number field"
+  },
+  
+  "phoneNumber": "Phone Number",
+  "@phoneNumber": {
+    "description": "Phone number field"
+  },
+  
+  "walletId": "Wallet ID",
+  "@walletId": {
+    "description": "Wallet ID field"
+  },
+  
+  "reference": "Reference",
+  "@reference": {
+    "description": "Reference field"
+  },
+  
+  "payNow": "Pay Now",
+  "@payNow": {
+    "description": "Pay now button"
+  },
+  
+  "processing": "Processing...",
+  "@processing": {
+    "description": "Processing message"
+  },
+  
+  "buyNow": "Buy Now",
+  "@buyNow": {
+    "description": "Buy now button"
+  },
+  
+  "quantity": "Quantity",
+  "@quantity": {
+    "description": "Quantity field"
+  },
+  
+  "deliveryAddress": "Delivery Address",
+  "@deliveryAddress": {
+    "description": "Delivery address field"
+  },
+  
+  "enterDeliveryAddress": "Enter delivery address",
+  "@enterDeliveryAddress": {
+    "description": "Enter delivery address hint"
+  },
+  
+  "orderNotes": "Order Notes (Optional)",
+  "@orderNotes": {
+    "description": "Order notes field"
+  },
+  
+  "enterOrderNotes": "Enter any special instructions",
+  "@enterOrderNotes": {
+    "description": "Enter order notes hint"
+  },
+  
+  "proceedToPayment": "Proceed to Payment",
+  "@proceedToPayment": {
+    "description": "Proceed to payment button"
+  },
+  
+  "paymentSuccessful": "Payment Successful!",
+  "@paymentSuccessful": {
+    "description": "Payment successful message"
+  },
+  
+  "orderConfirmed": "Your order has been confirmed and will be processed soon.",
+  "@orderConfirmed": {
+    "description": "Order confirmed message"
+  },
+  
+  "orderId": "Order ID",
+  "@orderId": {
+    "description": "Order ID label"
+  },
+  
+  "transactionId": "Transaction ID",
+  "@transactionId": {
+    "description": "Transaction ID label"
+  },
+  
+  "amount": "Amount",
+  "@amount": {
+    "description": "Amount label"
+  },
+  
+  "paymentMethod": "Payment Method",
+  "@paymentMethod": {
+    "description": "Payment method label"
+  },
+  
+  "cashOnDelivery": "Cash on Delivery",
+  "@cashOnDelivery": {
+    "description": "Cash on delivery payment method"
+  },
+  
+  "bankTransfer": "Bank Transfer",
+  "@bankTransfer": {
+    "description": "Bank transfer payment method"
+  },
+  
+  "mobilePayment": "Mobile Payment",
+  "@mobilePayment": {
+    "description": "Mobile payment method"
+  },
+  
+  "digitalWallet": "Digital Wallet",
+  "@digitalWallet": {
+    "description": "Digital wallet payment method"
+  },
+  
+  "creditCard": "Credit Card",
+  "@creditCard": {
+    "description": "Credit card payment method"
+  },
+  
+  "debitCard": "Debit Card",
+  "@debitCard": {
+    "description": "Debit card payment method"
+  },
+  
+  "paymentSlip": "Payment Slip",
+  "@paymentSlip": {
+    "description": "Payment slip title"
+  },
+  
+  "orderDetails": "Order Details",
+  "@orderDetails": {
+    "description": "Order details section title"
+  },
+  
+  "downloadReceipt": "Download Receipt",
+  "@downloadReceipt": {
+    "description": "Download receipt button text"
+  },
+  
+  "printReceipt": "Print Receipt",
+  "@printReceipt": {
+    "description": "Print receipt button text"
+  },
+  
+  "sharePaymentSlip": "Share Payment Slip",
+  "@sharePaymentSlip": {
+    "description": "Share payment slip button text"
+  },
+  
+  "generatingPDF": "Generating PDF...",
+  "@generatingPDF": {
+    "description": "PDF generation loading text"
+  }
+}
